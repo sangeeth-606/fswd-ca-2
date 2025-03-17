@@ -15,6 +15,9 @@ const StudentList = () => {
       <h2>Student List</h2>
       <ul>
         {/* TODO: Use appropriate method to display students from studentData using StudentItem component */}
+        {studentData.map((stud)=>(
+          <StudentItem student={stud} />
+        ))}
       </ul>
     </div>
   );
