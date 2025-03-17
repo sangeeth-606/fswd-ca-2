@@ -17,6 +17,7 @@ const StudentForm = () => {
         <br />
         <label >Grade</label>
         <input type="text" placeholder="Student Grade" />
+        <br />
         
        
 
